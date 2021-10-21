@@ -68,6 +68,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="images\location.JPG" />
+    <Content Include="images\searchbar.JPG" />
     <Content Include="PageTwo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>

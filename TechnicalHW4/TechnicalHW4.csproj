@@ -68,16 +68,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="HomePage.aspx" />
+    <Content Include="images\bath.jfif" />
+    <Content Include="images\groomsavings.JPG" />
+    <Content Include="images\haircut.jfif" />
     <Content Include="images\homepage.JPG" />
     <Content Include="images\location.JPG" />
+    <Content Include="images\package.jfif" />
+    <Content Include="images\palmember.JPG" />
     <Content Include="images\rabbit.JPG" />
     <Content Include="images\rewards.JPG" />
     <Content Include="images\same-day.JPG" />
     <Content Include="images\searchbar.JPG" />
+    <Content Include="images\vitalcare.JPG" />
+    <Content Include="images\vitalcarebenefits.JPG" />
+    <Content Include="images\walk-in.jfif" />
     <Content Include="images\wholehearted.JPG" />
+    <Content Include="images\youandyourpet.jfif" />
+    <Content Include="images\youandyourpet2.jfif" />
     <Content Include="MonthlyOffers.aspx" />
     <Content Include="Pharmacy.aspx" />
-    <Content Include="VitalCare.aspx" />
+    <Content Include="Grooming.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -110,12 +120,12 @@
       <DependentUpon>Pharmacy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="VitalCare.aspx.cs">
-      <DependentUpon>VitalCare.aspx</DependentUpon>
+    <Compile Include="Grooming.aspx.cs">
+      <DependentUpon>Grooming.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="VitalCare.aspx.designer.cs">
-      <DependentUpon>VitalCare.aspx</DependentUpon>
+    <Compile Include="Grooming.aspx.designer.cs">
+      <DependentUpon>Grooming.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

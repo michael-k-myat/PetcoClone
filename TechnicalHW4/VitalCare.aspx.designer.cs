@@ -11,7 +11,7 @@ namespace TechnicalHW4
 {
 
 
-    public partial class Default
+    public partial class VitalCare
     {
     }
 }

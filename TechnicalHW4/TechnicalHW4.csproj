@@ -67,23 +67,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Default.aspx" />
+    <Content Include="HomePage.aspx" />
+    <Content Include="images\homepage.JPG" />
     <Content Include="images\location.JPG" />
     <Content Include="images\rabbit.JPG" />
     <Content Include="images\rewards.JPG" />
     <Content Include="images\same-day.JPG" />
     <Content Include="images\searchbar.JPG" />
     <Content Include="images\wholehearted.JPG" />
-    <Content Include="PageTwo.aspx" />
+    <Content Include="MonthlyOffers.aspx" />
+    <Content Include="Pharmacy.aspx" />
+    <Content Include="VitalCare.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Default.aspx.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Default.aspx.designer.cs">
-      <DependentUpon>Default.aspx</DependentUpon>
+    <Compile Include="HomePage.aspx.designer.cs">
+      <DependentUpon>HomePage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
@@ -92,14 +95,28 @@
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
-    <Compile Include="PageTwo.aspx.cs">
-      <DependentUpon>PageTwo.aspx</DependentUpon>
+    <Compile Include="MonthlyOffers.aspx.cs">
+      <DependentUpon>MonthlyOffers.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PageTwo.aspx.designer.cs">
-      <DependentUpon>PageTwo.aspx</DependentUpon>
+    <Compile Include="MonthlyOffers.aspx.designer.cs">
+      <DependentUpon>MonthlyOffers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pharmacy.aspx.cs">
+      <DependentUpon>Pharmacy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pharmacy.aspx.designer.cs">
+      <DependentUpon>Pharmacy.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VitalCare.aspx.cs">
+      <DependentUpon>VitalCare.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VitalCare.aspx.designer.cs">
+      <DependentUpon>VitalCare.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="Main.Master" />

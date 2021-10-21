@@ -24,11 +24,38 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-6">
+                <div class="col-9">
                     <img src="images/location.jpg" />
                 </div>
-                <div class="col-6 text-right">
-                    <h5>This works</h5>
+                <div class="col-3">
+                    <div class="row justify-content-end">
+                        <div class="col-xs-4">                     
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="dropdownmenubutton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               Services
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownmenubutton">
+                                    <a class="dropdown-item" href="Default.aspx">Vital Care</a>
+                                    <a class="dropdown-item" href="PageTwo.aspx">Pharmacy</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-4">        
+                            <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="rewardsdropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                               Rewards
+                                </button>
+                                <div class="dropdown-menu dropdown-menu-right" aria-labelledby="rewardsdropdown">
+                                    <a class="dropdown-item"><img src="images/rewards.jpg" /></a>
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="col-xs-4">        
+                            <button class="btn">
+                               <a href="PageTwo.aspx" style="color:black;">Monthly Offers</a>
+                            </button>
+                        </div>
+                   </div>
                 </div>
             </div>
         </div>

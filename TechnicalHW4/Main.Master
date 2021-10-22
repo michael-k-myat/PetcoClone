@@ -41,7 +41,7 @@
                                Services
                                 </button>
                                 <div class="dropdown-menu" aria-labelledby="dropdownmenubutton">
-                                    <a class="dropdown-item" href="Grooming.aspx">Grooming</a>
+                                    <a class="dropdown-item" href="Grooming.aspx">Dog Grooming</a>
                                     <a class="dropdown-item" href="Pharmacy.aspx">Pharmacy</a>
                                 </div>
                             </div>
@@ -93,12 +93,23 @@
                
             </div>
            </div>
+            
         </div>
+       
+
+       
+       
+             
         <div>
            
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 
             </asp:ContentPlaceHolder>
+        </div>
+         <div class="row"">
+            <div class="col text-center">
+                <img src="images/recommended.jpg" />
+            </div>
         </div>
     </form>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -8,6 +8,16 @@
                     <img src="images/homepage.jpg" />
                 </div>
         </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <h3>What your pet needs, when they need it.</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <img src="images/delivery.jpg" />
+            </div>
+        </div>
     </div>
      
 </asp:Content>

@@ -8,7 +8,7 @@
                <nav aria-label="breadcrumb">
                    <ol class="breadcrumb bg-transparent">
                        <li class="breadcrumb-item"><a href="HomePage.aspx">Home</a></li>
-                       <li class="breadcrumb-item active" aria-current="page">Grooming</li>
+                       <li class="breadcrumb-item active" aria-current="page">Dog Grooming</li>
                    </ol>
                </nav>
             </div>
@@ -87,13 +87,34 @@
     </div>
     <br />
     <div class="container-fluid">
-        <div class="row justify-content-center">
+        <div class="row justify-content-center text-center">
         <div class="col-xs-6 ml-5 mr-3">
             <img src="images/youandyourpet.jfif" style="width:420px; height:250px;" />
         </div>
         <div class="col-xs-6 ml-5">
             <img src="images/youandyourpet2.jfif" style="width:420px; height:250px" />
         </div>
+        <div class="w-100"></div>
+            <div class="col-xs text-center">
+                <h2 class="font-weight-bold">You and your pet</h2>
+            </div>
+            <div class="col-xs- ml-5 text-center" style="position:relative; left:115px;">
+                <h2 class="font-weight-bold">You and your pet's stylist</h2>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-6-xs text-center">
+                <h5> A visit to our salon will not only help your pet look and feel great, but their fresh scent and soft coat will make cuddling at home even more enjoyable.</h5>
+            </div>
+            <div class="col-6 text-center">
+                <h5>Our groomers complete an 20-week, 800-hour course for certification, so your best friend will be in good hands.</h5>
+            </div>
+            <br />
+            <div class="w-100">
+                <br />
+               <div class="col">
+                   <button class="btn btn-primary">Book an Appointment</button>
+               </div>
+            </div>
     </div>
     </div>
     
